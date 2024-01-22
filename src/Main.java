@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 public class Main {
     public static void main(String[] args) {
         String str1 = "IDKHM1603633111<<<<<<<<<<<<<<<";
@@ -10,5 +11,18 @@ public class Main {
         System.out.println(str3.substring(0, 3));
         System.out.println(str3.substring(5, 11));
         System.out.println(str2.substring(12, 14) + "/" + str2.substring(10, 12) + "/20" + str2.substring(8, 10));
+=======
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Rectangle rectangle = new Rectangle(20.0, 5.0);
+        System.out.println("The area of the rectangle is: " + rectangle.getArea());
+        System.out.println("The perimeter of the rectangle is: " + rectangle.getPerimeter());
+
+        Square square = new Square(5.0);
+        System.out.println("The area of the square is: " + square.getArea());
+        System.out.println("The perimeter of the square is: " + square.getPerimeter());
+>>>>>>> bec3508 (first commit)
     }
 }
